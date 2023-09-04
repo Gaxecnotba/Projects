@@ -1,0 +1,14 @@
+icons:
+<script src="https://kit.fontawesome.com/92adb59a94.js" crossorigin="anonymous"></script>
+
+fonts: https://fonts.google.com/specimen/Gochi+Hand
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+api key:
+4e1b3262c544fc117cec8ed6ade28c24
+
+api url:
+https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}
+https://openweathermap.org/current#bulk

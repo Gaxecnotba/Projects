@@ -1,0 +1,17 @@
+Name:
+Ruben Sebastian Graneros Rojas
+ID:
+2230911
+
+The project:
+A weather website is an online platform that provides up-to-date weather information for various locations, these websites utilize weather API's to fetch real-time weather.
+Users can access a weather website to check the temperature, humidity, wind speed.
+
+HTML file:
+This HTML structure defines the layout, content, and styling of a webpage
+
+Css file:
+it is used to style the elements, add color, modify the sizes of my images or lettres, etc.
+
+Javascript file:
+JavaScript file handles dynamic behavior or interactions with the button, the information which will retraive, basically the webpage.

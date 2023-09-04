@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+}
+
+/* Container is my class from html and here i create my box that contains the button, the icon and my input*/
+.container{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: black; /*this is the color of my location icon*/
+    margin: 100px auto 0; 
+    border-radius: 20px; /* this made the corners around my container*/
+    padding: 40px 35px; /*and the padding added some space inside my container*/
+    text-align: center;
+    transition: 0.6s ease-out;
+}
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box input{
+    border: 0;
+    outline: 0;
+    background-color: #ebffcf;
+    color: #555;
+    padding: 10px 25px;
+    height: 62px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 18px;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+.search-box input::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+    color: #052e38;
+    text-transform: capitalize;
+}
+.search-box button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: #052e38;
+    background: #dff6dfdf;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: 0.6s ease;
+}
+/*hover, i used it to every time the user pass the mouse over or on the button this change of color*/
+.search-box button:hover{
+    color: #fff; /*this change the color of the magnifying glass*/
+    background: #06283d;
+}
+
+.search-box i{
+    position: absolute;
+    color: #06283d;
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather-box h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Pangolin', serif;
+}
+
+.weather-box h2{
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Pangolin', serif;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex; /*I used it becuase i wan to create to columns*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col i {
+    font-size: 32px;
+    width: 40px;
+    margin-right: 4px;
+}
+
+.humidity, .wind{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    margin-top: -6px;
+}
+
+.col p{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+
+/*I want to anime when the user search some city, the search box and the details will be displayed for them */
+.weather-box {
+    display: none;
+}
+
+.not-found{
+    text-align: left;
+    margin-left: -10px;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.error-404{
+    margin-top: -10px;
+    width: 350px;
+    height: 220px;
+    margin-left: 30px;
+    object-fit: cover;
+}
+
+.not-found p {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
